@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.emp.market"
+        versionCode="1" 
+        version   = "1.0.0">
+	
+	<!-- nom do aplicativo -->	
+    <name>Market App</name>
+	
+    <description>
+      Aplicativo Market App
+    </description>
+
+    <author href="https://facebook.com/adilmarcoelho" email="adilmarcoelho@hotmail.com">
+        Adilmar Coelho Dantas
+    </author>
+	
+	<preference name="stay-in-webview" value="true" />
+ 
+		
+<!-- Core plugins quais recursos do aparelho que você precisa -->
+<gap:plugin name="org.apache.cordova.battery-status" />
+<gap:plugin name="org.apache.cordova.camera" />
+<gap:plugin name="org.apache.cordova.media-capture" />
+<gap:plugin name="org.apache.cordova.console" />
+<gap:plugin name="org.apache.cordova.contacts" />
+<gap:plugin name="org.apache.cordova.device" />
+<gap:plugin name="org.apache.cordova.device-motion" />
+<gap:plugin name="org.apache.cordova.device-orientation" />
+<gap:plugin name="org.apache.cordova.dialogs" />
+<gap:plugin name="org.apache.cordova.file" />
+<gap:plugin name="org.apache.cordova.file-transfer" />
+<gap:plugin name="org.apache.cordova.geolocation" />
+<gap:plugin name="org.apache.cordova.globalization" />
+<gap:plugin name="org.apache.cordova.inappbrowser" />
+<gap:plugin name="org.apache.cordova.media" />
+<gap:plugin name="org.apache.cordova.network-information" />
+<gap:plugin name="org.apache.cordova.splashscreen" />
+<gap:plugin name="org.apache.cordova.vibration" />
+
+
+
+<!-- icones para as plataformas -->
+<icon src="icon.png" />
+<icon src="icon.png"   gap:platform="android"    gap:density="ldpi" />
+<icon src="icon.png"   gap:platform="android"    gap:density="mdpi" />
+<icon src="icon.png"   gap:platform="android"    gap:density="hdpi" />
+<icon src="icon.png"   gap:platform="android"    gap:density="xhdpi" />
+<icon src="icon.png"   gap:platform="webos" />
+<icon src="icon.png"   gap:platform="winphone" />
+<icon src="icon.png"   gap:platform="winphone"   gap:role="background" />
+	
+
+</widget>
