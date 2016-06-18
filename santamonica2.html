@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Maket App</title>
+	<link rel="stylesheet" href="themes/app1.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="data.json"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="b">
+		<div data-role="header" data-position="inline">
+			<h1><img src="images/cart.png" width="70px" height="auto"/><br>Market App</h1>
+		</div>
+		<div data-role="content" data-theme="a">
+			<p>Lista de mercados proximos</p>
+		
+
+	</div>
+	
+<script>
+
+
+obj = JSON.parse(text);
+
+for (i = 0; i < text.length ; i++) {
+
+document.write(
+	
+	'<img src="'+obj.supermecados[i].img+'"><br>'+
+	'<b>Nome: </b>'+ obj.supermecados[i].nome+'<br>'+
+	'<b>Endereço: </b>'+ obj.supermecados[i].end+'<br>'+
+	'<b>Telefone: </b>'+ obj.supermecados[i].tel+'<br>'+
+	'<b>Horario: </b>'+ obj.supermecados[i].hora+'<br><br>'
+);
+
+
+}
+
+</script>
+	
+	
+</body>
+</html>
