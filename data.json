@@ -1,6 +1,4 @@
-var text = '{"supermecados":[' +
-	
-	
-'{"nome":"Supermecado Valor","end":"Av. Segismundo Pereira, 1040 - Santa Mônica, Uberlândia - MG, 38408-170","tel":"31223","hora":"07:30–22:00","img":"http://static.guiato.com.br/Geschaefte/Rede-Valor.v3283.jpg" },' +
-'{"nome":"Supermecado Real","end":"Av. Belarmino Cotta Pacheco, 1040 - Santa Mônica, Uberlândia - MG, 38408-168","tel":"(34) 3236-1531","hora":" 07:00–20:30","img":"http://www.finartsuniformes.com.br/galeria_fotos/clientes/cliente_28.jpg" },' +
-'{"nome":"Mercado da Gente","end":"Av. Belarmino Cotta Pacheco, 524 - Santa Mônica, Uberlândia - MG, 38408-168","tel":"(34) 3214-1115","hora":" 06:30–23:00","img":"https://lh4.googleusercontent.com/proxy/0cAHcAh-RZYmxXKyJJQ0E2IzT9s6OcT5JMuXS6257_EFzn8UcX3216DiEolyB_6EKwzO_lO_ejIU9NNOl3EJ1s5Quzqc-wTwJLOdPDU_AXUaosrcqzKc8xZuafGO4DNXDtFeeGREfT_3Ij3UpSMDrJvytkMz5CY8RXOe=w213-h160" }]}';
+var text = '{"supermecados":[' +	
+	'{"nome":"Supermecado Valor","end":"Av. Segismundo Pereira, 1040 - Santa Mônica, Uberlândia - MG, 38408-170","tel":"31223","hora":"07:30–22:00","img":"http://static.guiato.com.br/Geschaefte/Rede-Valor.v3283.jpg" },' +
+	'{"nome":"Supermecado Real","end":"Av. Belarmino Cotta Pacheco, 1040 - Santa Mônica, Uberlândia - MG, 38408-168","tel":"(34) 3236-1531","hora":" 07:00–20:30","img":"http://www.finartsuniformes.com.br/galeria_fotos/clientes/cliente_28.jpg" },' +
+	'{"nome":"Mercado da Gente","end":"Av. Ortizio Borges, 524 - Santa Mônica, Uberlândia - MG, 38408-168","tel":"(34) 3214-1115","hora":" 06:30–23:00","img":"https://lh4.googleusercontent.com/proxy/0cAHcAh-RZYmxXKyJJQ0E2IzT9s6OcT5JMuXS6257_EFzn8UcX3216DiEolyB_6EKwzO_lO_ejIU9NNOl3EJ1s5Quzqc-wTwJLOdPDU_AXUaosrcqzKc8xZuafGO4DNXDtFeeGREfT_3Ij3UpSMDrJvytkMz5CY8RXOe=w213-h160" }]}';

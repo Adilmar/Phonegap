@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Maket App</title>
+	<link rel="stylesheet" href="themes/app1.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="b">
+		<div data-role="header" data-position="inline">
+			<h1><img src="images/cart.png" width="70px" height="auto"/><br>Market App</h1>
+		</div>
+		<div data-role="content" data-theme="a">
+			<p align="center">Bem vindo(a) <br> Sua localização:<span id="city"></span>,  <span id="state"></span> </p>
+			<script>
+				$.ajax({
+					url: "https://geoip-db.com/jsonp",
+					jsonpCallback: "callback",
+					dataType: "jsonp",
+					success: function( location ) {
+						//$('#country').html(location.country_name);
+						$('#state').html(location.state);
+						$('#city').html(location.city);
+						//$('#latitude').html(location.latitude);
+						//$('#longitude').html(location.longitude);
+						//$('#ip').html(location.IPv4);  
+					}
+				});		
+			</script>
+			<a href="santamonica.html" data-role="button" data-theme="b"><img src="images/c1.png"/><br>Santa Mônica</a>
+			<a href="granada.html" data-role="button" data-theme="b"><img src="images/c2.png"/><br>Granada</a>
+			<a href="luizote.html" data-role="button" data-theme="b"><img src="images/c1.png"/><br>Luizote</a>
+			<a href="tibery.html" data-role="button" data-theme="b"><img src="images/c2.png"/><br>Tibery</a>
+		</div>
+	</div>
+</body>
+</html>
